@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>headtag}}
+<body>
+    {{>navbar}}
+    <div class="registration-form">
+  <form action="/login" method="POST">
+    <div class="form-container">
+      <p>login Form</p>
+      <div>
+        <div class="left-container">
+          <div class="form-element">
+            <input
+              type="email"
+              name="email"
+              class="item"
+              value=""
+              placeholder="Email address *"
+            />
+          </div>
+          <div class="form-element">
+            <input
+              type="password"
+              name="password"
+              class="item"
+              value=""
+              placeholder="Password *"
+            />
+          </div>
+        </div>
+      </div>
+      <input type="submit" class="btnRegister" value="Login" />
+    </div>
+
+  </form>
+</div>
+</body>
+</html>
